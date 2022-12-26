@@ -1,0 +1,716 @@
+#include <LiquidCrystal.h>
+
+LiquidCrystal lcd(1, 2, 4, 5, 6, 7);
+
+void setup() {
+    lcd.begin(16, 2);
+}
+
+void loop() {
+    // start here !@#$%^
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("It's you");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("And I'm not ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("gettin' over ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("it");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("Darlin', is it ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("cool");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("If I'm stubborn ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("when it comes ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("to this?");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I guess we're ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("in time");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("If you're ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("getting ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("yourself wet ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("for me");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I guess you're ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("all mine");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You're sleeping ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("in this bed ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("with me");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I just think ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("you're cool");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I dig your ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("Do you think ");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I'm cool too?");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("Or am I too ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("into you?");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("Tell me what ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("you want and ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("you got it, ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("love");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I want all of ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("you, gimme all ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("you got");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("That's cinema");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("That's cinema, ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("uh-huh");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("It's you");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("Don't know why, ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("but it feels so ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("right to me");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("Something in ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("the way you ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("move");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I like it when ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("you dance for ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("me (I just ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("think it's-)");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You all the ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("time (time, ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("time)");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("In doses at ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("night (night, ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("night)");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("No roof on the ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("drive");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("Dust off the ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("high");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("And go to sleep ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("(go to sleep, ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("go to sleep)");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I just think ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("you're cool");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I dig your ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("Do you think ");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I'm cool, too?");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("Or am I too ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("into you?");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I just think ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("you're cool ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("(co-cool)");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I dig your ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("cinema ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("(cinema)");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("Do you think ");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I'm cool, too?");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("Or am I ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("(cinema) too ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("into you?");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("Cinema");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I bring the ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("pop, you pop");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I bring the ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("pop");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I bring the pop ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("to the cinema, ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("you pop");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I bring the pop ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("to the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You pop when we ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("get intimate");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got (cinema) ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("the cinema");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I bring the pop ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("to the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You pop when we ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("get intimate ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("(baby, you're ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("cinema)");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I bring the pop ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("to the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You pop when we ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("get intimate ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("(baby, you're ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("cinema)");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I bring the pop ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("to the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You pop when we ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("get intimate ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("(baby, you're ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("cinema)");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You got, you ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("got the cinema ");
+	delay(1000);
+	lcd.clear();
+
+	lcd.setCursor(0, 0);
+	lcd.print("(cinema)");
+	delay(1000);
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("I bring the pop ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("to the cinema");
+	delay(1000);
+	lcd.clear();
+
+	lcd.clear();
+	lcd.setCursor(0, 0);
+	lcd.print("You pop when we ");
+	delay(1000);
+
+	lcd.setCursor(0, 1);
+	lcd.print("get intimate ");
+	delay(1000);
+	lcd.clear();
+
+}
